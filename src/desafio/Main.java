@@ -1,5 +1,6 @@
 package desafio;
 
+import desafio.dominio.Conteudo;
 import desafio.dominio.Curso;
 import desafio.dominio.Mentoria;
 
@@ -20,6 +21,9 @@ public class Main {
         curso2.setDescricao("Aprenda o básico sobre C#.");
         curso2.setCargaHoraria(15);
         System.out.println(curso2);
+
+
+        //Conteudo conteudo = new Curso();  --> Polimorfismo
 
         Mentoria mentoria1 = new Mentoria();
         mentoria1.setTitulo("Crie seu portfolio");
